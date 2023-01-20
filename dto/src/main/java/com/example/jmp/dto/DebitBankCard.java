@@ -1,4 +1,4 @@
-package com.example.dto;
+package com.example.jmp.dto;
 
 public class DebitBankCard extends BankCard {
 

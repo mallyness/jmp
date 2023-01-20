@@ -1,3 +1,3 @@
-module com.example.dto {
-    exports com.example.dto;
+module com.example.jmp.dto {
+    exports com.example.jmp.dto;
 }

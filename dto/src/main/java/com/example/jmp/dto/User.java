@@ -1,4 +1,4 @@
-package com.example.dto;
+package com.example.jmp.dto;
 
 import java.time.LocalDate;
 import java.util.Objects;
