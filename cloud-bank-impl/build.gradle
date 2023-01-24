@@ -12,7 +12,7 @@ repositories {
 
 dependencies {
     implementation project(':dto')
-    implementation project(':bank-api')
+    api project(':bank-api')
 
     testImplementation 'org.hamcrest:hamcrest:2.2'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
