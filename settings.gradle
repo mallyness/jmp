@@ -5,3 +5,5 @@ include 'bank-api'
 include 'service-api'
 include 'cloud-bank-impl'
 include 'cloud-service-impl'
+include 'application'
+
