@@ -33,7 +33,7 @@ public class H2Database {
                 LOGGER.info("Inserted a new row.");
             }
 
-            sql = "select * FROM USERS";
+            sql = "select * from USERS";
             List<User> users = new ArrayList<>();
             ResultSet resultSet = statement.executeQuery(sql);
             while (resultSet.next()) {

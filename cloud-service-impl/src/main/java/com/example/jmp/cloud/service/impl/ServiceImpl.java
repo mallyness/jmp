@@ -21,6 +21,7 @@ public class ServiceImpl implements Service {
 
     @Override
     public List<User> getAllUsers() {
-        return null;
+        System.out.println("Try to obtain all users");
+        return List.of();
     }
 }
