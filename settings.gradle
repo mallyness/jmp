@@ -1,3 +1,4 @@
 rootProject.name = 'jmp'
 include 'cache'
+include 'algorithms'
 
