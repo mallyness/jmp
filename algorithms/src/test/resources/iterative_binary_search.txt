@@ -1,0 +1,5 @@
+Benchmark                                         (size)  Mode  Cnt     Score     Error  Units
+BinarySearchBenchmark.measureIterativeSearch         100  avgt   15   149.642 ±   7.278  ns/op
+BinarySearchBenchmark.measureIterativeSearch     1000000  avgt   15   507.970 ±  85.792  ns/op
+BinarySearchBenchmark.measureIterativeSearch  1000000000  avgt   15  1918.935 ± 115.478  ns/op
+

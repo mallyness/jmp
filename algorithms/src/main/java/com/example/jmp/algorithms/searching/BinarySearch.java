@@ -17,8 +17,8 @@ public class BinarySearch {
             counter++;
             middle = (left + right) / 2;
             if (number == array[middle]) {
-                System.out.printf("The number %d is found in the array at position %d in %d steps.",
-                    number, middle, counter);
+//                System.out.printf("The number %d is found in the array at position %d in %d steps.",
+//                    number, middle, counter);
                 return middle;
             } else if (number < array[middle]) {
                 right = middle - 1;
@@ -27,7 +27,7 @@ public class BinarySearch {
             }
         }
 
-        System.out.printf("The number %d is not found in the array.", number);
+//        System.out.printf("The number %d is not found in the array.", number);
         return -1;
     }
 }
