@@ -38,4 +38,10 @@ public class BinarySearchBenchmark {
     public void measureIterativeSearch() {
         BinarySearch.iterativeSearch(sortedArray, new Random().nextInt(0, sortedArray.length));
     }
+
+    @Benchmark
+    public void measureRecursiveSearch() {
+        BinarySearch.recursiveSearch(sortedArray, 0, sortedArray.length - 1,
+            new Random().nextInt(0, sortedArray.length));
+    }
 }

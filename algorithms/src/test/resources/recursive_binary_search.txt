@@ -1,0 +1,5 @@
+Benchmark                                         (size)  Mode  Cnt     Score     Error  Units
+BinarySearchBenchmark.measureRecursiveSearch         100  avgt   15   174.236 ±  22.573  ns/op
+BinarySearchBenchmark.measureRecursiveSearch     1000000  avgt   15   235.168 ±  57.067  ns/op
+BinarySearchBenchmark.measureRecursiveSearch  1000000000  avgt   15  1716.286 ± 650.239  ns/op
+
