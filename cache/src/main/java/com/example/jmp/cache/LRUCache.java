@@ -26,7 +26,7 @@ public class LRUCache implements Cache {
                 cache.remove(getFirst().get());
             }
 
-            cache.remove(data); // if data present dut to move to the least recent position
+            cache.remove(data); // if data present due to move to the least recent position
             cache.add(data);
         } finally {
             lock.unlock();
